@@ -83,8 +83,8 @@ checkerFramework {
     '-Werror',
     // '-AcheckPurityAnnotations',
     '-ArequirePrefixInWarningSuppressions',
-    '-AwarnUnneededSuppressions',
-    // '-AusePolyDefault'
+    '-AwarnUnneededSuppressions', '-AwarnUnneededSuppressionsExceptions=purity|method.guarantee.violated',
+    // '-AusePolyDefault',
   ]
 }
 
